@@ -1,4 +1,4 @@
-// Triton Strategies — shared site script
+// Triton Strategies - shared site script
 
 document.addEventListener("DOMContentLoaded", function () {
   /* ---------- Mobile navigation ---------- */
@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", function () {
         })
           .then(function (res) {
             if (res.ok) {
-              status.textContent = "Message sent. Thank you — Triton Strategies will be in touch.";
+              status.textContent = "Message sent. Thank you - Triton Strategies will be in touch.";
               status.classList.add("success");
               form.reset();
             } else {
@@ -78,7 +78,7 @@ document.addEventListener("DOMContentLoaded", function () {
       } else {
         var body =
           "Name: " + data.name + "\n" +
-          "Company: " + (data.company || "—") + "\n\n" +
+          "Company: " + (data.company || "-") + "\n\n" +
           data.message;
         var mailto =
           "mailto:" + CONTACT_EMAIL +
