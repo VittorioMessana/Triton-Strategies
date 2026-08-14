@@ -303,7 +303,7 @@ p {
       rgba(10, 13, 22, 0.88) 45%,
       rgba(10, 13, 22, 0.98) 100%
     ),
-    url("images/london-skyline.jpg");
+    url("london-skyline.jpg");
   background-size: cover;
   background-position: center 60%;
   opacity: 0.9;
