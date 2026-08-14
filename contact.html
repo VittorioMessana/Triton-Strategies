@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Triton Strategies</title>
+<meta name="description" content="Get in touch with Triton Strategies.">
+<link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ================= HEADER ================= -->
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html" class="brand">
+      <span class="b1">Triton</span>
+      <span class="b2">Strategies</span>
+    </a>
+    <nav class="main-nav">
+      <a href="index.html#strategies">Strategies</a>
+      <a href="index.html#about">About</a>
+      <a href="index.html#team">Team</a>
+      <a href="contact.html" class="is-active">Contact</a>
+    </nav>
+    <div class="header-cta">
+      <a href="contact.html" class="btn btn-outline-dark">Contact</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span>
+      </button>
+    </div>
+  </div>
+  <nav class="mobile-nav" id="mobileNav">
+    <a href="index.html#strategies">Strategies</a>
+    <a href="index.html#about">About</a>
+    <a href="index.html#team">Team</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<section class="section" style="padding-top:148px;">
+  <div class="wrap">
+    <div class="contact-grid">
+      <div class="contact-side">
+        <span class="eyebrow">Contact</span>
+        <h2>Start a conversation.</h2>
+        <p>For research, strategic advisory or general enquiries, send Triton Strategies a message and a member of the team will respond directly.</p>
+        <div class="contact-detail">
+          <span class="eyebrow">Company</span>
+          <a class="linkedin-link" href="https://www.linkedin.com/company/triton-strategies" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.03-1.85-3.03-1.85 0-2.14 1.45-2.14 2.94v5.66H9.36V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+            LinkedIn
+          </a>
+        </div>
+      </div>
+
+      <div>
+        <form id="contactForm" novalidate>
+          <div class="form-row">
+            <div class="form-field">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required autocomplete="name">
+            </div>
+            <div class="form-field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required autocomplete="email">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-field">
+              <label for="company">Company</label>
+              <input type="text" id="company" name="company" autocomplete="organization">
+            </div>
+            <div class="form-field">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" required>
+            </div>
+          </div>
+          <div class="form-field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-solid">Submit</button>
+          <p class="form-status" id="formStatus"></p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="index.html" class="brand">
+          <span class="b1">Triton</span>
+          <span class="b2">Strategies</span>
+        </a>
+        <p>Strategic thinking for complex decisions.</p>
+      </div>
+      <div class="footer-col">
+        <span class="eyebrow on-dark">Navigate</span>
+        <a href="index.html#strategies">Strategies</a>
+        <a href="index.html#about">About</a>
+        <a href="index.html#team">Team</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-col">
+        <span class="eyebrow on-dark">Connect</span>
+        <a class="footer-linkedin" href="https://www.linkedin.com/company/triton-strategies" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.03-1.85-3.03-1.85 0-2.14 1.45-2.14 2.94v5.66H9.36V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+          LinkedIn
+        </a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Triton Strategies</span>
+      <span class="legal">The portfolio presented on this website is simulated and does not represent the management of external client capital. Simulated or historical performance is not indicative of future results.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
