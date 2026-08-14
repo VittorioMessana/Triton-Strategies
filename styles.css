@@ -570,3 +570,37 @@ p { margin: 0; }
   color: var(--text-on-dark); text-transform: uppercase; letter-spacing: 0.06em; font-weight: 600;
 }
 .mobile-nav .btn { margin-top: 20px; }
+
+/* ================= TEAM EDUCATION ================= */
+
+.education {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 16px 0 18px;
+}
+
+.education img {
+  width: 34px;
+  height: 34px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.education div {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.education strong {
+  font-size: 0.95rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.education span {
+  font-size: 0.82rem;
+  line-height: 1.3;
+  opacity: 0.7;
+}
